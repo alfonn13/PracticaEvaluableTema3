@@ -8,8 +8,9 @@ export const calcularEdad = () => {
     // Obtener la fecha de nacimiento del string
     const partesFecha = fechaNacimiento.split("/");
     dia = parseInt(partesFecha[0], 10);
-    mes = parseInt(partesFecha[1], 10) - 1; // Meses en JavaScript son 0-indexados
+    mes = parseInt(partesFecha[1], 10)-1; // Meses en JavaScript son 0-indexados
     anio = parseInt(partesFecha[2], 10);
+
 
     // Crear un objeto Date con la fecha de nacimiento
     const fechaNacimientoObj = new Date(anio, mes, dia);

@@ -30,7 +30,6 @@ export const datos = () => {
     mensaje.innerHTML = `Buenos días <strong>${nombre}</strong>`;
     document.body.appendChild(mensaje);
 
-    
 }
 
 export{nombre, apellidos, fechaNacimiento};
