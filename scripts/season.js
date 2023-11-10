@@ -19,7 +19,7 @@ export const calcularEstacionDelAno = () => {
 
 
     const mensaje = document.createElement("p");
-    mensaje.innerHTML = `Naciste en la estación del año: ${estacion}.`;
+    mensaje.innerHTML = `Naciste un feliz dia de ${estacion} del año ${anio}.`;
     document.body.appendChild(mensaje);
 };
 
