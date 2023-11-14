@@ -6,6 +6,8 @@ import { calcularEstacionDelAno } from "./season.js";
 import { coseno } from "./coseno.js";
 import { majorNum } from "./numList.js";
 import { random } from "./numRandom.js";
+import {button} from "./windowsbutton.js";
+import {window} from "./windowNew.js";
 
 document.addEventListener("DOMContentLoaded" ,()=>{
     datos();
@@ -16,4 +18,6 @@ document.addEventListener("DOMContentLoaded" ,()=>{
     coseno();
     majorNum();
     random();
+    button();
+    window();
 })
