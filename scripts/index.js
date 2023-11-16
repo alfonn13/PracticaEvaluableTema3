@@ -1,3 +1,8 @@
+/*
+Alfonso Reviejo Valle
+GitHub: https://github.com/alfonn13/PracticaEvaluableTema3
+*/
+
 //Importamos las clases para que nos funcionen en nuestro index.js
 import { datos } from "./data.js";
 import { nombreLength } from "./nombreLength.js";
