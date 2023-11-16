@@ -1,7 +1,7 @@
 /*Funcion que abre una Ventana con un h1, dos parrafos y un iFrame con su
 correspondiente enlace*/
 export const openNewWindow = () => {
-    const newWindow = window.open("ventanaNueva.html", "_blank");
+    const newWindow = window.open("/templates/ventanaNueva.html", "_blank");
 
     newWindow.onload = () => {
         const infoContainer = newWindow.document.createElement('div');
