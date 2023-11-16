@@ -30,9 +30,8 @@ export const firsendLetter = () => {
         mensaje.innerHTML += `<p>No se encontró la letra 'A' en tu nombre.</p>`;
     }
 
-    // Verificar si el nombre tiene al menos tres letras
     if (nombreCompleto.length >= 3) {
-        // Utilizar slice para obtener una nueva cadena sin las tres primeras letras
+        // Utilizamos slice para obtener una nueva cadena sin las tres primeras letras
         const nuevoNombre = nombreCompleto.slice(3);
 
         

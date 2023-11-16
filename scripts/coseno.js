@@ -1,3 +1,4 @@
+// Función que calcula el coseno de 180 en grados
 export const coseno = () => {
     const grados = 180;
     const radianes = grados * (Math.PI / 180); // Convierte grados a radianes

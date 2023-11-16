@@ -1,4 +1,4 @@
-// index.js
+//Importamos las clases para que nos funcionen en nuestro index.js
 import { datos } from "./data.js";
 import { nombreLength } from "./nombreLength.js";
 import { firsendLetter } from "./first-endLetter.js";
@@ -18,16 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
     coseno();
     majorNum();
     random();
-    button(); // Llama a la función que crea el botón
+    button();
 
-    // Crea un botón en JavaScript
+    // Creamos el Boton reiniciar en el index.js para hacer el addEvenListener desde aqui
     const resetButton = document.createElement("button");
-    resetButton.textContent = "Reiniciar Página";
+    resetButton.textContent = "Reiniciar";
     document.body.appendChild(resetButton);
 
-    // Agrega un listener al botón de reinicio
+    // addEvenListener del Boton reiniciar
     resetButton.addEventListener("click", () => {
-        // Recarga la página
         location.reload();
     });
 });

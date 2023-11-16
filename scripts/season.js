@@ -1,5 +1,6 @@
 import { dia, mes, anio } from "./age.js";
 
+// Función que calcula la estacion del año en la que naciste
 export const calcularEstacionDelAno = () => {
     // Determinar la estación del año
     console.log(dia);

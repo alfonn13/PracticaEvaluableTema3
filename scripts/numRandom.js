@@ -1,4 +1,4 @@
-// Generar un número aleatorio entre 0 y 100
+// Funcion que genera un número aleatorio entre 0 y 100
 export const random = () =>{
     const numeroAleatorio = Math.floor(Math.random() * 101);
 

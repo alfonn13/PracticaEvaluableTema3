@@ -1,5 +1,6 @@
 import {nombre, apellidos} from "./data.js";
 
+//Funcion que calcula la longitud de tu nombre completo con espacios incluidos
 export const nombreLength = ()=>{
 
     const longitudNombre = nombre.concat(" ").concat(apellidos);
