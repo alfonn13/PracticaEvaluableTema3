@@ -9,6 +9,5 @@ export const nombreLength = ()=>{
     const mensaje = document.createElement("p");
     mensaje.innerHTML = `Tu nombre completo (nombre y apellidos) tiene <strong>${longitud}</strong> caracteres, incluidos espacios`;
     document.body.appendChild(mensaje);
-    
 
 }

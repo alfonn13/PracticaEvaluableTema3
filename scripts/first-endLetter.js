@@ -6,7 +6,6 @@ export const firsendLetter = () => {
 
     // Convertir el nombre a minúsculas para hacer la búsqueda insensible a mayúsculas y minúsculas
     const nombreCompleto = nombre.concat(" ").concat(apellidos);
-    console.log(nombreCompleto)
 
     const nombreLowerCase = nombreCompleto.toLowerCase();
 

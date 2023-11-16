@@ -2,11 +2,7 @@ import { dia, mes, anio } from "./age.js";
 
 // Función que calcula la estacion del año en la que naciste
 export const calcularEstacionDelAno = () => {
-    // Determinar la estación del año
-    console.log(dia);
-    console.log(mes);
-    console.log(anio);
-
+    
     let estacion = "";
     if ((mes === 2 && dia >= 20) || (mes === 3) || (mes === 4 && dia < 21) || (mes===5 && dia < 21)) {
     estacion = "<strong>Primavera</strong>";
