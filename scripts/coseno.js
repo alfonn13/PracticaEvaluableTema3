@@ -4,7 +4,7 @@ export const coseno = () => {
     const coseno = Math.cos(radianes);
   
     const mensaje = document.createElement("p");
-    mensaje.innerHTML = `El coseno de ${grados} grados es: ${coseno}`;
+    mensaje.innerHTML = `<strong>El coseno de ${grados} grados </strong> es <strong>${coseno}</strong>`;
     document.body.appendChild(mensaje);
   };
   

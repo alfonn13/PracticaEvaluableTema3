@@ -25,7 +25,7 @@ export const calcularEdad = () => {
     const edadEnAnios = Math.floor(diferenciaMillis / (365.25 * 24 * 60 * 60 * 1000));
 
     const mensaje = document.createElement("p");
-    mensaje.innerHTML = `Tu edad es: ${edadEnAnios} años.`;
+    mensaje.innerHTML = `Tu <strong> edad </strong> es <strong> ${edadEnAnios} </strong> años.`;
     document.body.appendChild(mensaje);
 };
 

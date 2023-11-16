@@ -27,7 +27,7 @@ export const datos = () => {
 
     //Para sacar El buenos dias nombre
     const mensaje = document.createElement("p");
-    mensaje.innerHTML = `Buenos días <strong>${nombre}</strong>`;
+    mensaje.innerHTML = `Buenos días, <strong>${nombre}</strong>`;
     document.body.appendChild(mensaje);
 
 }

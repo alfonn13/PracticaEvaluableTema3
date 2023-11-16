@@ -3,7 +3,7 @@ export const majorNum = ()=>{
     const numeroMayor = Math.max(...listaNumeros);
 
     const mensaje = document.createElement("p");
-    mensaje.innerHTML = `El número mayor de (${listaNumeros.join(", ")}) es: ${numeroMayor}.`;
+    mensaje.innerHTML = `El número mayor de <strong>(${listaNumeros.join(", ")})</strong> es ${numeroMayor}.`;
     document.body.appendChild(mensaje);
 
 }
